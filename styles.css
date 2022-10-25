@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background: url(img/fondohollow.jpg) no-repeat center center /cover;
 }
@@ -6,9 +7,139 @@ body{
     font-size: 100px;
     text-align: center;
     text-shadow: 5px 5px 2px white;
+=======
+/*DATOS GLOBALES*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(img/fondohollow.jpg) no-repeat center center /cover;
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ##########################################################
+
+                        ENCABEZADO 
+
+###########################################################*/
+header{
+    display: flex;
+    /*Altura minima para que se adapte*/
+    min-height: 70px;
+    /*//////////////////////////////////*/
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.mensaje-bienvenida {
+    font-size: 200%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 45%;
+    -webkit-border-radius: 45%;
+    -moz-border-radius: 45%;
+    -ms-border-radius: 45%;
+    -o-border-radius: 45%;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    font-size: 150%;
+}
+
+/* El color cambia al pasar el cursor en los links de la compañia*/
+nav a:hover{
+    color: white;
+}
+/*Si el ancho de la pantalla es máximo 700px, entonces*/
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px;
+    }
+}
+
+/*###########################################################
+
+                    FIN DE ENCABEZADO
+
+##############################################################*/
+
+/*////////////////////////////////////////////////////////////
+
+/*###########################################################
+
+                    CONTENIDO PRINCIPAL
+
+###########################################################*/
+
+#contenido-principal{
+    margin: auto;
+    align-self: center;
+    background-color: white;
+    width: 80%;
+    min-height: 900px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#cuadro-1-iz{
+    padding-top: 2%;
+    padding-left: 2%;
+    justify-content:space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: 90%;
+    height: 500px;
+    background-color: green;
+}
+
+#cuadro-1-de{
+    margin-top: 20px;
+    margin-left: -20px;
+    width: 100%;
+    float: right;
+    height: 300px;
+    background-color: aqua;
+>>>>>>> ramaA
 }
 
 .texto1, 
 .texto2{
+<<<<<<< HEAD
     color: white;
 }
+=======
+    color: black;
+}
+
+/*#######################################################
+
+                FIN DEL CONTENIDO PRINCIPAL
+
+###########################################################*/
+>>>>>>> ramaA
