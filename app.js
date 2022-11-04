@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const btn1 = document.querySelector('#boton1');
 const parrafo1 = document.querySelector('.texto1');
 const parrafo2 = document.querySelector('.texto2');
@@ -11,7 +11,7 @@ parrafo2.style.background = 'red';
 parrafo2.innerText = 'Hola, Dalek';
 
 });
-=======
+
 const datos = [{
     img: '',
     text: "Hollow Knight es el juego que revoluciono los metroidvanias, así como su gameplay"
@@ -35,4 +35,4 @@ function contenidoCuadrosIzq (text) {
 
 /* Para cada dato, voy a pasar el texto al nuevo p de cada div*/
 datos.forEach(({text}) => contenidoCuadrosIzq(text));
->>>>>>> ramaA
+

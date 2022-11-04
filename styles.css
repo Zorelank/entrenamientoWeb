@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
     background: url(img/fondohollow.jpg) no-repeat center center /cover;
 }
@@ -7,10 +7,10 @@ body{
     font-size: 100px;
     text-align: center;
     text-shadow: 5px 5px 2px white;
-=======
+ }
 /*DATOS GLOBALES*/
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -125,15 +125,12 @@ nav a:hover{
     float: right;
     height: 300px;
     background-color: aqua;
->>>>>>> ramaA
+
 }
 
 .texto1, 
 .texto2{
-<<<<<<< HEAD
     color: white;
-}
-=======
     color: black;
 }
 
@@ -142,4 +139,4 @@ nav a:hover{
                 FIN DEL CONTENIDO PRINCIPAL
 
 ###########################################################*/
->>>>>>> ramaA
+
